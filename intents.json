@@ -1,0 +1,115 @@
+{"intents": [
+        {"tag": "Name",
+        "patterns": ["What is your name","Your name","Tell me your name"],
+        "responses":["My Name is UOH IT BOT by Ikhaith"],
+        "context":[""]
+        },
+
+        {"tag": "Chairman",
+        "patterns": ["What is the name of IT Department","chairman IT","Tell me the name of chairman"],
+        "responses":["Professor Dr Mukhtaj khan"],
+        "context":["Visit University IT department feculty for more info from website:"]
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","you help me alot thank you","you are amazing thank you"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you About Admissions In IT Department", "Offering support Admission In IT Department"],
+         "context": [""]
+        },
+        {"tag": "Help desk",
+         "patterns":["Provide the contact number of Focal person","focal person","focal person name","focal person mobile number","Contact no of IT department"],
+         "responses":["Mr Alamgeer Khan,contact Number:0333-5065199,Alamgir khan629@gmail.com"],
+         "context":[""]
+        },
+        {"tag":"Field",
+        "patterns":["How many IT fields are there","Which field are offered by IT Department","Which field are offered by IT Department","How many programs are offered at IT Department","What are the courses offered by IT Department","IT Department courses","Name of IT Department course","Can you provide list of IT Department courses","Which courses are offering in IT Department"],
+        "responses":["Which courses are offering in IT Department ,1) BS Artifical Intelligence ,2) BS Software Engineering , 3)  BS Computer Sciences , 4) BS Data Sciences , 4) BS Data Sciences  "],
+        "context":[""]        
+        },
+        {"tag":"sharp question",
+        "patterns":["Is AI Program offer","Is CS Program Offer","Is Data Science program offer","Is Telecom and network program offer"],
+        "responses":["Yes,Offers(Both BS and MS Level)"],
+        "context":["Search instead:Which field are offered by IT Department"]
+        },
+        {"tag":"Eligibility Criteria for Cs",
+        "patterns":["BS Computer Sciences eligibility criteria","BSCS eligibility criteria","What is the eligibility criteria for Computer Sciences","What is the eligibility criteria for BS Computer Sciences","What is the eligibility criteria for BSCS"],
+        "responses":["FSc (Pre-Engineering) , FSc (Pre-Medical) ,  ICS with Physics or Statistics or Economics, General Science with Mathematics, Statistics or Economics OR A-Level / Equivalent with Equivalence certificate from IBCC [At least 50 % Marks] "],
+        "context":[""]
+        },
+        {"tag":"1.Eligible criteria AI",
+        "patterns":["BS AI eligibility criteria","BS Artificial Intelligence eligibility criteria","What is the eligibility criteria for AI","What is the eligibility criteria for BS Artificial Intelligence","What is the eligibility criteria for BS AI","Eligibility criteria of AI","How many marks are required for admission in AI","How many numbers are required for admission in AI"],
+        "responses":["FSc (Pre-Engineering) , FSc (Pre-Medical) ,  ICS with Physics or Statistics or Economics, General Science with Mathematics, Statistics or Economics OR A-Level / Equivalent with Equivalence certificate from IBCC .[At least 50 % Marks] "],
+        "context":[""]
+        },
+        {"tag":"Eligible criteria BS Data Sciences",
+        "patterns":["BS Data Sciences eligibility criteria","What is the eligibility criteria for Data Sciences","What is the eligibility criteria for BS Data Sciences","What is the eligibility criteria for BS Data Sciences","BSDS eligibility criteria"],
+        "responses":["Ans) FSc (Pre-Engineering) , FSc (Pre-Medical) ,  ICS with Physics or Statistics or Economics, General Science with Mathematics, Statistics or Economics OR A-Level / Equivalent with Equivalence certificate from IBCC  [At least 50 % Marks] "],
+        "context":[""]
+        },
+        {"tag":"Eligible criteria BSSE",
+        "patterns":["BSSE eligibility criteria","BS Software Engineering eligibility criteria","What is the eligibility criteria for Software Engineering","What is the eligibility criteria for Software Engineering","What is the eligibility criteria for BSSE"],
+        "responses":["FSc (Pre-Engineering) , FSc (Pre-Medical) ,  ICS with Physics or Statistics or Economics, General Science with Mathematics, Statistics or Economics OR A-Level / Equivalent with Equivalence certificate from IBCC  [At least 50 % Marks] "],
+        "context":[""]
+        },
+        {"tag":"1.Eligible criteria Telecommunication and Network",
+        "patterns":["BS Telecommunication & Network eligibility criteria","What is the eligibility criteria for Telecommunication & Network","What is the eligibility criteria for BS Telecommunication & Network","What is the eligibility criteria for BS Telecommunication and Network"],
+        "responses":["FSc (Pre-Engineering) , FSc (Pre-Medical) ,  ICS with Physics or Statistics or Economics, General Science with Mathematics, Statistics or Economics OR A-Level / Equivalent with Equivalence certificate from IBCC  [At least 50 % Marks] "],
+        "context":[""]
+        },
+        {"tag":"Fees",
+        "patterns":["What is the fee structure of BS Computer Science","Fee structure for BS Computer Science","What is the fee structure of BSCS","Fee structure for BSCS","Fee structure for BSCS","Fee structure for BS Telecommunication & Network","What is the fee structure of BS Telecommunication and Network","Fee structure for BS Telecommunication and Network","What is the fee structure of BS Artificial Intelligence","Fee structure for BS Artificial Intelligent","What is the fee structure of BSAI","Fee structure for BSAI","What is the fee structure of BS Software Engineering","Fee structure for BS Software Engineering","What is the fee structure of BSSE","Fee structure for BSSE","What is the fee structure of BS Data Science","Fee structure for BS Data Science","What is the fee structure of BSDS","Fee structure for BSDS"],
+        "responses":["Plz visit UOH website for more info or visit : https://www.eduvision.edu.pk/university-of-haripur-uoh-haripur-ins-1377886413 "],
+        "context":[""]
+        },
+        {"tag":"Best one",
+        "patterns":["Which program is best","is CS is best","Is AI is best","is data science is best","is telecom and networks is best","is Computer science is best","Is Artificial Intellengence is best"],
+        "responses":["Yes : All are best","All Programs are Market demanded"],
+        "context":["For further Info Plz visit University Website"]
+        },
+        {"tag":"entry test",
+        "patterns":["Is university take entry test","entry test","entry test date","entry test sample","entry test room","Is IT Department will conduct entry test"],
+        "responses":["No There will be no entry test this year for BS, Hope so next year"],
+        "context":["For more Info : http://www.uoh.edu.pk/admissions/schedule"]
+        },
+        {"tag":"benifits",
+        "patterns":["what are the benefits by joining IT","Benefits by joining IT field","Benefits"],
+        "responses":["Plz visit The UOH website:"],
+        "context":["Plz visit google"]
+        },
+        {"tag":"Location of IT",
+        "patterns":["Where IT department located at UOH","IT department Location"],
+        "responses":["Near MLT department,about 400 meters awway from main entrance and admin "],
+        "context":["Plz visit Map for further info ."]
+        },
+        {"tag":"schlorships",
+        "patterns":["schlorship in IT deapartment","schlorships offered by IT department","Schlorships in UOH","schlorships"],
+        "responses":["Visit Financial aid web portion here : http://www.uoh.edu.pk/scholarships#gsc.tab=0"],
+        "context":[""]
+        },
+        {"tag":"Baqwas customer",
+        "patterns":[".","?","o","830947078","uhl.C","jani ","love you","How are you","tum bht harami hay","Managment sciences","math","physics","english"],
+        "responses":["Plz ask question related to IT Department"],
+        "context":["Plz be serieous"]
+        }
+]
+
+}
